@@ -9,6 +9,10 @@
   border-radius: 5px;
   font-size: 10px;
 }
+.service:hover {
+  background-color: #2570d7;
+  color: white;
+}
 .hide {
   height: 0;
   /* transition: all 2s; */
