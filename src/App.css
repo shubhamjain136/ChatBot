@@ -1,0 +1,11 @@
+.service {
+  padding: 5px;
+  margin: 5px;
+  color: #333333;
+  border: 1px solid #ababab;
+  border-radius: 5px;
+}
+.hide {
+  height: 0;
+  /* transition: all 2s; */
+}
