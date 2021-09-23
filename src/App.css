@@ -1,9 +1,13 @@
+:root {
+  font-size: 12px;
+}
 .service {
   padding: 5px;
   margin: 5px;
   color: #333333;
   border: 1px solid #ababab;
   border-radius: 5px;
+  font-size: 10px;
 }
 .hide {
   height: 0;

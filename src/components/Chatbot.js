@@ -23,7 +23,7 @@ function Chatbot({ chat, setChat }) {
           marginLeft: "auto",
           borderTopLeftRadius: "15px",
           borderTopRightRadius: "15px",
-          paddingTop: "15px",
+          // paddingTop: "5px",
           // border: "1px solid #ababab",
         }}
       >
@@ -35,7 +35,7 @@ function Chatbot({ chat, setChat }) {
             <img
               src="icon.jpg"
               alt=""
-              style={{ height: "50px", padding: "0px 10px" }}
+              style={{ height: "50px", padding: "0px 5px" }}
             />
             <h5>Ask Eva</h5>
           </div>
@@ -85,16 +85,20 @@ function Chatbot({ chat, setChat }) {
         className={min ? "hide" : ""}
       >
         <div
-          className="text-white p-3"
+          className="text-white p-2"
           style={{
             background: "#2570d7",
             border: "1px solid #ababab",
             borderTop: "none",
+            padding: "0px",
           }}
         >
-          <h3>Hi !</h3>I am EVA, your personal assistant to help you with HDFC
-          Bank related queries. You can select from the options below or can
-          type your question in the space provided.
+          <h5>Hi !</h5>
+          <p>
+            I am EVA, your personal assistant to help you with HDFC Bank related
+            queries. You can select from the options below or can type your
+            question in the space provided.
+          </p>
         </div>
         <div
           className="d-flex "
@@ -121,7 +125,7 @@ function Chatbot({ chat, setChat }) {
           style={{
             display: "flex",
             flexWrap: "wrap",
-            padding: "25px",
+            padding: "15px",
             border: "1px solid #ababab",
             borderTop: "none",
             // borderBottom: "none",
